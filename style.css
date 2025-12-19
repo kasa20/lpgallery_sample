@@ -53,36 +53,6 @@ nav { display: flex; justify-content: space-between; align-items: center; width:
 /* 푸터 */
 footer { text-align: center; padding: 40px 0; border-top: 1px solid #eee; font-size: 0.9rem; color: #888; }
 
-/* About 페이지 전용 스타일 */
-.about-section {
-    max-width: 900px;
-    margin: 80px auto; /* 섹션 사이의 넉넉한 간격 */
-    text-align: center;
-}
-
-.sub-title {
-    font-size: 1.8rem;
-    font-weight: 300;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
-    color: #111;
-}
-
-.about-content p {
-    font-size: 1.1rem;
-    line-height: 2; /* 줄 간격을 넓혀 가독성 향상 */
-    color: #555;
-    word-break: keep-all; /* 한글 단어가 중간에 잘리지 않게 설정 */
-}
-
-/* 모바일 대응 */
-@media (max-width: 768px) {
-    .about-content p {
-        font-size: 1rem;
-        padding: 0 10px;
-    }
-}
-
 /* About 페이지 텍스트 디자인 심화 */
 .about-section {
     max-width: 850px;
