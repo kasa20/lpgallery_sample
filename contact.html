@@ -2,7 +2,8 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>LP GALLERY | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP GALLERY | Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,13 +17,31 @@
             </ul>
         </nav>
     </header>
-    <section class="container">
-    <h3 class="section-title">Contact Us</h3>
-    <div style="text-align: center;">
-        <p>Email: contact@lpgallery.com</p>
-        <p>Tel: 02-1234-5678</p>
-        <p>Address: 서울특별시 OO구 OO로 123</p>
-    </div>
-</section>
+
+    <main class="container">
+        <h3 class="section-title">Contact Us</h3>
+        <div class="contact-wrapper" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px; margin-top: 50px;">
+            <div class="img-box" style="aspect-ratio: 1 / 1;">지도 이미지 (Google Maps 등)</div>
+            
+            <div style="display: flex; flex-direction: column; justify-content: center; gap: 20px;">
+                <div>
+                    <h4 style="margin-bottom: 5px;">Address</h4>
+                    <p style="color: #666;">서울특별시 강남구 예술로 123, LP 빌딩 1F</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 5px;">Opening Hours</h4>
+                    <p style="color: #666;">Tue - Sun: 11:00 AM - 07:00 PM<br>(Monday Closed)</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 5px;">Contact</h4>
+                    <p style="color: #666;">Email: info@lpgallery.com<br>Tel: 02-123-4567</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer style="margin-top: 100px;">
+        <p>&copy; 2025 LP GALLERY. All rights reserved.</p>
+    </footer>
 </body>
 </html>
