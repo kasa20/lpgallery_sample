@@ -11,16 +11,27 @@ nav { display: flex; justify-content: space-between; align-items: center; width:
 .logo { font-size: 1.2rem; letter-spacing: 2px; }
 .nav-links { display: flex; gap: 30px; }
 
-/* 메인 비주얼 */
+/* 메인 비주얼 (배경 이미지 설정) */
 .hero {
-    height: 60vh;
-    background: #f4f4f4; /* 나중에 배경 이미지로 교체 가능 */
+    height: 80vh; /* 화면 높이의 80% 차지 */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                      url('images/main-hero.jpg'); /* 이미지 경로 */
+    background-size: cover;       /* 이미지가 구역에 꽉 차게 조절 */
+    background-position: center;  /* 이미지의 중심이 보이게 */
+    background-attachment: fixed; /* 스크롤 시 이미지가 고정되는 고급 효과 (선택사항) */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #fff; /* 배경 위 글자색을 흰색으로 변경 */
 }
-.hero h2 { font-size: 2.5rem; margin-bottom: 10px; font-weight: 300; }
+
+.hero h2 { 
+    font-size: 3rem; 
+    margin-bottom: 15px; 
+    font-weight: 300; 
+    letter-spacing: 5px; 
+}
 
 /* 갤러리 그리드 */
 .section-title { margin: 60px 0 30px; text-align: center; font-weight: 400; text-transform: uppercase; }
