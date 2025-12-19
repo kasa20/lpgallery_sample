@@ -53,38 +53,45 @@ nav { display: flex; justify-content: space-between; align-items: center; width:
 /* 푸터 */
 footer { text-align: center; padding: 40px 0; border-top: 1px solid #eee; font-size: 0.9rem; color: #888; }
 
-/* About 페이지 텍스트 디자인 심화 */
-.about-section {
-    max-width: 850px;
-    margin: 120px auto; /* 섹션 간의 여백을 더 넓게 잡아 여백의 미 강조 */
-    text-align: center;
+/* About 페이지 전체 배경 및 중앙 정렬 */
+body {
+    background-color: #f9f9f9; /* 아주 은은한 연회색 배경 */
 }
 
-.first-section {
-    margin-top: 150px; /* 맨 위 첫 섹션은 더 아래로 내려서 여유 공간 확보 */
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 20px; /* 위아래 넉넉한 여백 */
+    text-align: center; /* 모든 텍스트 중앙 정렬 */
+}
+
+/* 섹션 사이의 구분선 */
+.divider {
+    width: 40px;           /* 짧고 감각적인 선 */
+    height: 1px;
+    background-color: #ccc; /* 선 색상 */
+    margin: 0 auto;        /* 선도 가운데 정렬 */
 }
 
 .section-title {
-    font-size: 2.2rem;
-    font-weight: 400;
-    letter-spacing: 4px;
+    font-size: 2.4rem;
+    font-weight: 300;
+    letter-spacing: 6px;
     margin-bottom: 40px;
-    border-bottom: 1px solid #eee; /* 제목 아래 얇은 선으로 구분 */
-    display: inline-block;
-    padding-bottom: 10px;
+    color: #111;
 }
 
 .sub-title {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     margin-bottom: 30px;
-    color: #222;
+    color: #333;
 }
 
 .about-content p {
-    font-size: 1.1rem;
-    line-height: 2.2; /* 줄 간격을 더 넓게 하여 가독성 극대화 */
-    color: #444;
-    word-break: keep-all;
+    font-size: 1.05rem;
+    line-height: 2.2; /* 가독성을 위한 넓은 줄간격 */
+    color: #555;
+    word-break: keep-all; /* 한글 단어 단위 줄바꿈 */
 }
