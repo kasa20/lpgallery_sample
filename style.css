@@ -82,3 +82,39 @@ footer { text-align: center; padding: 40px 0; border-top: 1px solid #eee; font-s
         padding: 0 10px;
     }
 }
+
+/* About 페이지 텍스트 디자인 심화 */
+.about-section {
+    max-width: 850px;
+    margin: 120px auto; /* 섹션 간의 여백을 더 넓게 잡아 여백의 미 강조 */
+    text-align: center;
+}
+
+.first-section {
+    margin-top: 150px; /* 맨 위 첫 섹션은 더 아래로 내려서 여유 공간 확보 */
+}
+
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee; /* 제목 아래 얇은 선으로 구분 */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 2.2; /* 줄 간격을 더 넓게 하여 가독성 극대화 */
+    color: #444;
+    word-break: keep-all;
+}
