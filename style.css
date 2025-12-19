@@ -53,45 +53,37 @@ nav { display: flex; justify-content: space-between; align-items: center; width:
 /* 푸터 */
 footer { text-align: center; padding: 40px 0; border-top: 1px solid #eee; font-size: 0.9rem; color: #888; }
 
-/* About 페이지 전체 배경 및 중앙 정렬 */
+/* About 페이지 디자인 통일 */
 body {
-    background-color: #f9f9f9; /* 아주 은은한 연회색 배경 */
+    background-color: #f9f9f9; /* 은은한 연회색 */
 }
 
 .about-section {
     max-width: 800px;
     margin: 0 auto;
-    padding: 100px 20px; /* 위아래 넉넉한 여백 */
-    text-align: center; /* 모든 텍스트 중앙 정렬 */
+    padding: 80px 20px; /* 모든 섹션의 상하 여백 통일 */
+    text-align: center;
 }
 
-/* 섹션 사이의 구분선 */
 .divider {
-    width: 40px;           /* 짧고 감각적인 선 */
+    width: 40px;
     height: 1px;
-    background-color: #ccc; /* 선 색상 */
-    margin: 0 auto;        /* 선도 가운데 정렬 */
-}
-
-.section-title {
-    font-size: 2.4rem;
-    font-weight: 300;
-    letter-spacing: 6px;
-    margin-bottom: 40px;
-    color: #111;
+    background-color: #ccc;
+    margin: 0 auto;
 }
 
 .sub-title {
-    font-size: 1.7rem;
+    font-size: 1.7rem; /* 모든 소제목 크기 통일 */
     font-weight: 300;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     margin-bottom: 30px;
-    color: #333;
+    color: #111;
+    text-transform: uppercase; /* 영문일 경우 대문자로 변경하여 더 깔끔하게 */
 }
 
 .about-content p {
     font-size: 1.05rem;
-    line-height: 2.2; /* 가독성을 위한 넓은 줄간격 */
+    line-height: 2.2;
     color: #555;
-    word-break: keep-all; /* 한글 단어 단위 줄바꿈 */
+    word-break: keep-all;
 }
